@@ -1,9 +1,9 @@
 
-from Nodes import BNode as Node
+from Nodes.binary_node import binary_node as Node
 
 
 class BinaryTree:
-    """A type tree which has as much as two children nodes per node.
+    """A tree which has as much as two children nodes per node.
     """
 
     def __init__(self):
